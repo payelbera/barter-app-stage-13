@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, Image, TouchableOpacity,TextInput, Alert, Modal,ScrollView,KeyboardAvoidingView } from 'react-native';
 import BarterAnimation from '../components/BarterAnimationScreen.js';
-import { RFValue } from "react-native-responsive-fontsize";
+//import Responsive fiont size
 
 import db from '../config';
 import firebase from 'firebase';
@@ -325,10 +325,10 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.44,
     shadowRadius: 10.32,
     elevation: 16,
-    marginTop: RFValue(10),
+    marginTop: 10,
   },
   registerButtonText: {
-    fontSize: RFValue(23),
+    fontSize: 23,
     fontWeight: "bold",
     color: "#fff",
   },
